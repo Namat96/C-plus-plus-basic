@@ -1,11 +1,18 @@
 #include <iostream>
+
 int main()
 {
-   int x = 5;
-   int y = 4;
-    int sum = x + y;
-    std::cout << x << '\n';
-    std::cout << y << '\n';
-    std::cout << "sum  = " <<sum << '\n';
+    int week = 52;
+    int years = 1;
+    double days = 365;
+    double gpa = 3.99;
+    char grade = 'A';
+
+    std::cout << "Week: " << week << '\n';
+    std::cout << "Years: " << years << '\n';
+    std::cout << "Days: " << days << '\n';
+    std::cout << "GPA: " << gpa << '\n';
+    std::cout << "Grade: " << grade << '\n';
+
     return 0;
 }
