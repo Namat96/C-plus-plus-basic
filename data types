@@ -7,12 +7,17 @@ int main()
     double days = 365;
     double gpa = 3.99;
     char grade = 'A';
+    std::string name = "Namat";
+    std::string day = "Sunday";
+    
 
     std::cout << "Week: " << week << '\n';
+    std::cout << "Day: " << day << '\n';
     std::cout << "Years: " << years << '\n';
     std::cout << "Days: " << days << '\n';
     std::cout << "GPA: " << gpa << '\n';
     std::cout << "Grade: " << grade << '\n';
+    std::cout << "Your name is : " << name << '\n';
 
     return 0;
 }
